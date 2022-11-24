@@ -3,9 +3,78 @@
     margin: 0;
    box-sizing: border-box;
 }
-
+header{
+    display: flex;
+    color: rgba(46, 54, 50, 0.445);
+    align-items: center;
+    background-color: rgba(88, 134, 111, 0.404);
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
 nav ul{
     display: flex;
     align-items: center;
+    justify-content:center;
+}
+
+li{
+    display: flex;
+    margin: 15px;
+    border: 3px solid rgba(78, 128, 99, 0.247);
+    color: rgba(46, 54, 50, 0.445);
+    border-radius: 7px;
+    list-style: none;
+}   
+
+ nav li:hover{
+    border: 3px solid rgba(31, 197, 67, 0.432);
+    border-radius: 7px;
+    color: blue;
+    padding: 2px;
+}
+
+
+.clap-right{
+    display: flex;
+    background-color:rgba(43, 41, 41, 0.301);
+    width: 23%;
+    height: 70vh;
+    border-radius: 25px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.clap-left{
+    display: flex;
+    align-items: center;
+    width: 23%;
+    height: 70vh;
+    border-radius: 25px;
+    margin: auto;
+    background-color:rgba(43, 41, 41, 0.301);
+    justify-content: center;
+}
+
+.class{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color:rgba(247, 247, 247, 0.918);
     justify-content: space-between;
+}
+
+.clap-text {
+    background-color: rgba(76, 76, 88, 0.315);
+}
+
+.clap-text:hover{
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    border-radius: 10px;
+    color: blue;
+    padding: 2px;
 }
